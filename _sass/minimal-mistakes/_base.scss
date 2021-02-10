@@ -60,7 +60,7 @@ h6 {
 
 small,
 .small {
-  font-size: $type-size-6;
+  font-size: $type-size-8;
 }
 
 p {
@@ -168,12 +168,14 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: 0.8em;
-  background: $code-background-color;
+  // background: $code-background-color;
+  background:#707070;
+  color:#fde8cd;
   border-radius: $border-radius;
 
   &:before,
   &:after {
-    letter-spacing: -0.2em;
+    letter-spacing: 0em;
     content: "\00a0"; /* non-breaking space*/
   }
 }

@@ -6,10 +6,11 @@ div.highlighter-rouge,
 figure.highlight {
   position: relative;
   margin-bottom: 1em;
-  background: $base00;
+  // background: $base00;
+  background: #363636;
   color: $base05;
   font-family: $monospace;
-  font-size: $type-size-6;
+  font-size: $type-size-8;
   line-height: 1.8;
   border-radius: $border-radius;
 
@@ -70,7 +71,8 @@ figure.highlight {
   }
   .k {
     /* Keyword */
-    color: $base0e;
+    // color: $base0e;
+    color:#f67575;
   }
   .l {
     /* Literal */
@@ -141,7 +143,8 @@ figure.highlight {
   }
   .kd {
     /* Keyword.Declaration */
-    color: $base0e;
+    // color: $base0e;
+    color:#dbc6eb;
   }
   .kn {
     /* Keyword.Namespace */
@@ -177,7 +180,8 @@ figure.highlight {
   }
   .nb {
     /* Name.Builtin */
-    color: $base05;
+    // color: $base05;
+    color: #fbaccc;
   }
   .nc {
     /* Name.Class */
@@ -213,7 +217,8 @@ figure.highlight {
   }
   .nx {
     /* Name.Other */
-    color: $base0d;
+    // color: $base0d;
+    color: #fff8cd;
   }
   .py {
     /* Name.Property */
